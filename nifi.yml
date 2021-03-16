@@ -61,4 +61,4 @@ spec:
         - name: NIFI_ELECTION_MAX_CANDIDATES
           value: "1"
         - name: NIFI_ZK_CONNECT_STRING
-          value: "zookeeper-new-0.zookeeper-new-headless:2181,zookeeper-new-1.zookeeper-new-headless:2181,zookeeper-new-2.zookeeper-new-headless:2181"
+          value: "zookeeper-new-0.zookeeper-new-headless.default.svc.cluster.local:2888,zookeeper-new-1.zookeeper-new-headless.default.svc.cluster.local:2888,zookeeper-new-2.zookeeper-new-headless.default.svc.cluster.local:2888"
